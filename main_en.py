@@ -10,13 +10,13 @@ print("Notice:")
 print("1. If you want to send file like txt, please move that file to the folder where your exe at.\n"
       "   Or use absolute path like:C:\\..\\..\\example.txt")
 print("2. Manual input will send line by line, type a single 'ok' for ending your input.")
-print("3. There's gonna be two seconds after entering how many times you to send.\n"
-      "   click the window where you want to spam at within these two seconds.")
-print("4. Works on Windows, probably works on mac, you can give it a shot."
+print("3. There's gonna be two seconds after entering how many times you want to send.\n"
+      "   Click the window where you want to spam at within these two seconds.")
+print("4. Works on Windows, probably works on mac, you can give it a shot.\n"
       "   As for why, go ask Steve Jobs why don't just ust ctrl instead of command, control or some shits.")
-print("5. Close the console window directly when you're done."
-      "   I've uploaded the source code to Youtube：https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-print("6. I would love to have some foreign friends, so follow my instagram: lunlun_0805")
+print("5. Close the console window directly when you're done.\n"
+      "   I've uploaded the source code to Youtube if you want to take a look：https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+print("6. I would love to have some foreign friends, so follow my instagram: lunlun_0805\n")
 
 choice = input("1. send file\n2. Manual input\nplease input 1 or 2 :")
 retry = 0
