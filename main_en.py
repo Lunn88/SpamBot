@@ -34,7 +34,7 @@ while(choice != '1' and choice != '2'):
 
 if(choice == '1'):
     content = ""
-    path = input("Please input the path(don't forget the '.txt' by the end of your file):")
+    path = input("Please input the path(don't forget to add the '.txt' by the end of your file):")
     while (not p.exists(path)):
         path = input("No such file！Input again:")
 
@@ -70,7 +70,7 @@ if(choice == '1'):
 else:
     while(True):
         content = []
-        print("Please input:(remember to enter a single ok by the end of your input)：")
+        print("Please input:(remember to enter a single 'ok' by the end of your input)：")
         tmp = str(input())
         while(tmp != "ok"):
             content.append(tmp)
